@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        background-color:#dbdbdb;
+        color:red;
+        font-size: 1.2rem;
+    }
+</style>
+<body>
+    <div class="container">
+        <?php
+            
+            $dizi =array("a","b","c");
+            echo "<pre>";
+            print_r($dizi);
+            echo "</pre>";
+
+            echo "<hr>";
+
+            array_push($dizi,"d","e","f"); //dizeye  d ve e elemanını ekliyoruz.
+
+            echo "<pre>";
+            print_r($dizi);
+            echo "</pre>";
+
+            echo "<hr>";
+
+            array_pop($dizi); // diziden son elemanı çıkartıyorum.
+
+            echo "<pre>";
+            print_r($dizi);
+            echo "</pre>";
+
+            
+
+        ?>
+    </div>
+    
+</body>
+</html>
