@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablo Ödevi</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            background-color: #dbdbdb;
+            font-size: 2rem;
+        }
+
+
+        th,
+        td {
+            border: 1px solid red;
+        }
+    </style>
+    </head>
+    
+<body>
+    <?php
+
+    $uni = "Adnan Menderes";
+    $myo = "Aytepe";
+    $ad = "XEZAL";
+    $soyad = "Kasımoğlu";
+    $no = "216001019";
+
+    ?>
+    <table>
+        <tr>
+            <th>Universite</th>
+            <th>MYO</th>
+            <th>Öğrenci Adı</th>
+            <th>Öğrenci Soyadı</th>
+            <th>Öğrenci No</th>
+        </tr>
+        <tr>
+            <td>
+                <?php echo $uni ?>
+            </td>
+            <td>
+                <?php echo $myo ?>
+            </td>
+            <td>
+                <?php echo $ad ?>
+            </td>
+            <td>
+                <?php echo $soyad ?>
+            </td>
+            <td>
+                <?php echo $no ?>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
